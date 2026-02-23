@@ -13,7 +13,7 @@ public class Conversions {
     }
 
     public String integerToString(int val) {
-        return null;
+        return String.valueOf(val);
     }
 
     public String switchCase(){
