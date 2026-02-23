@@ -4,8 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a79f1b14-62ff-4d7d-a619-5a888b854271" name="Changes" comment="add implementation of integerToString  method">
-      <change beforePath="$PROJECT_DIR$/src/ConversionsTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ConversionsTest.java" afterDir="false" />
+    <list default="true" id="a79f1b14-62ff-4d7d-a619-5a888b854271" name="Changes" comment="add switchCase test methods">
+      <change beforePath="$PROJECT_DIR$/src/Conversions.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Conversions.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -112,7 +112,7 @@
       <updated>1771853515361</updated>
       <workItem from="1771853516544" duration="813000" />
       <workItem from="1771854339810" duration="1292000" />
-      <workItem from="1771856429412" duration="409000" />
+      <workItem from="1771856429412" duration="804000" />
     </task>
     <task id="LOCAL-00001" summary="Add conversions stub methods">
       <option name="closed" value="true" />
@@ -194,7 +194,15 @@
       <option name="project" value="LOCAL" />
       <updated>1771856708361</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="add switchCase test methods">
+      <option name="closed" value="true" />
+      <created>1771856867719</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1771856867719</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -210,7 +218,8 @@
     <MESSAGE value="add implementation to stringToInteger method" />
     <MESSAGE value="add integerToString test methods" />
     <MESSAGE value="add implementation of integerToString  method" />
-    <option name="LAST_COMMIT_MESSAGE" value="add implementation of integerToString  method" />
+    <MESSAGE value="add switchCase test methods" />
+    <option name="LAST_COMMIT_MESSAGE" value="add switchCase test methods" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

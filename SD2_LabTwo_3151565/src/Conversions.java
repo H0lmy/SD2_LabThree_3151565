@@ -1,11 +1,11 @@
 public class Conversions {
 
     public double euroToDollar(double euro) {
-        return euro>0 ? euro * 1.1 : 0;
+        return euro > 0 ? euro * 1.1 : 0;
     }
 
     public double dollarToEuro(double dollar) {
-        return dollar>0 ? dollar * 0.9 : 0;
+        return dollar > 0 ? dollar * 0.9 : 0;
     }
 
     public int stringToInteger(String val) {
@@ -16,15 +16,24 @@ public class Conversions {
         return String.valueOf(val);
     }
 
-    public String switchCase(){
-        return null;
+    public String switchCase(String val) {
+        if (val == null) {
+            return null;
+        }
+        StringBuilder result = new StringBuilder();
+        for (int i = 0; i < val.length(); i++) {
+            char c = val.charAt(i);
+            if (!Character.isLetter(c)) {
+                result.append(c);
+                continue;
+            }
+                if (Character.isUpperCase(c)) {
+                    result.append(Character.toLowerCase(c));
+                } else {
+                    result.append(Character.toUpperCase(c));
+                }
+
+        }
+        return result.toString();
     }
-
-
-
-
-
-
-
-
 }
