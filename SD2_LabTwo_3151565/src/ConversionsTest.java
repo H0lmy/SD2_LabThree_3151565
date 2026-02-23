@@ -31,4 +31,25 @@ public class ConversionsTest {
     }
 
 
+    @Test
+    public void dollarToEuroDefaultValue() {
+        double result = c.dollarToEuro(100);
+        assertEquals(90.91, result);
+    }
+
+    @Test
+    public void dollarToEuroNegativeValue() {
+        double result = c.dollarToEuro(-100);
+        assertEquals(0, result);
+    }
+
+    @Test
+    public void dollarToEuroZeroValue() {
+        double result = c.dollarToEuro(0);
+        assertEquals(0, result);
+    }
+
+
+
+
 }
