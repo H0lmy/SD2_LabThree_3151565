@@ -1,7 +1,7 @@
 public class Conversions {
 
     public double euroToDollar(double euro) {
-        return 0;
+        return euro>0 ? euro * 1.1 : 0;
     }
 
     public double dollarToEuro(double dollar) {

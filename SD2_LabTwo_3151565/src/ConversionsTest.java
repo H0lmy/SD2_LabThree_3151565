@@ -1,7 +1,7 @@
 import org.junit.jupiter.api.BeforeAll;
 import org.junit.jupiter.api.Test;
 
-import static org.junit.jupiter.api.Assertions.assertEquals;
+import static org.junit.jupiter.api.Assertions.*;
 
 
 public class ConversionsTest {
@@ -21,13 +21,13 @@ public class ConversionsTest {
     @Test
     public void euroToDollarNegativeValue() {
         double result = c.euroToDollar(-100);
-        assert(result==0);
+        assertEquals(0, result);
     }
 
     @Test
     public void euroToDollarZeroValue() {
         double result = c.euroToDollar(0);
-        assert(result==0);
+        assertEquals(0, result);
     }
 
 
