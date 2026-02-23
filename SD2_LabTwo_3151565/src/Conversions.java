@@ -5,7 +5,7 @@ public class Conversions {
     }
 
     public double dollarToEuro(double dollar) {
-        return 0;
+        return dollar>0 ? dollar * 0.9 : 0;
     }
 
     public int stringToInteger(String val) {

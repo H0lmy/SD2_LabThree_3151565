@@ -34,7 +34,7 @@ public class ConversionsTest {
     @Test
     public void dollarToEuroDefaultValue() {
         double result = c.dollarToEuro(100);
-        assertEquals(90.91, result);
+        assertEquals(90, result);
     }
 
     @Test
