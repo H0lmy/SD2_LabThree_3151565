@@ -68,6 +68,20 @@ public class ConversionsTest {
         assertEquals(0, result);
     }
 
+    @Test
+    public void integerToStringDefaultValue() {
+        String result = c.integerToString(100);
+        assertEquals("100", result);
+    }
+
+    @Test
+    public void integerToStringNullValue() {
+        String result = c.integerToString(0);
+        assertEquals("0", result);
+    }
+
+
+
 
 
 
