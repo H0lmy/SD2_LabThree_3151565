@@ -1,3 +1,5 @@
+// Maksym Shtymak 3151565
+
 import org.junit.jupiter.api.BeforeAll;
 import org.junit.jupiter.api.Test;
 
@@ -6,6 +8,7 @@ import static org.junit.jupiter.api.Assertions.*;
 
 public class ConversionsTest {
     private static Conversions c;
+
     @BeforeAll
     public static void setup() {
         c = new Conversions();
@@ -101,14 +104,6 @@ public class ConversionsTest {
         String result = c.switchCase(val);
         assertEquals(null, result);
     }
-
-
-
-
-
-
-
-
 
 
 }

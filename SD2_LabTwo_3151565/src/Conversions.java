@@ -1,3 +1,4 @@
+// Maksym Shtymak 3151565
 public class Conversions {
 
     public double euroToDollar(double euro) {
@@ -27,11 +28,11 @@ public class Conversions {
                 result.append(c);
                 continue;
             }
-                if (Character.isUpperCase(c)) {
-                    result.append(Character.toLowerCase(c));
-                } else {
-                    result.append(Character.toUpperCase(c));
-                }
+            if (Character.isUpperCase(c)) {
+                result.append(Character.toLowerCase(c));
+            } else {
+                result.append(Character.toUpperCase(c));
+            }
 
         }
         return result.toString();
