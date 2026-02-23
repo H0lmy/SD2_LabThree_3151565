@@ -81,6 +81,30 @@ public class ConversionsTest {
     }
 
 
+    @Test
+    public void switchCaseLowercaseValue() {
+        String val = "default";
+        String result = c.switchCase();
+        assertEquals("DEFAULT", result);
+    }
+
+    @Test
+    public void switchCaseUppercaseValue() {
+        String val = "DEFAULT";
+        String result = c.switchCase();
+        assertEquals("default", result);
+    }
+
+    @Test
+    public void switchCaseNullValue() {
+        String val = null;
+        String result = c.switchCase();
+        assertEquals(null, result);
+    }
+
+
+
+
 
 
 
