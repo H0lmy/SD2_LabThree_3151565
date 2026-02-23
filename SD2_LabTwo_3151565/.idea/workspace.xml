@@ -4,7 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a79f1b14-62ff-4d7d-a619-5a888b854271" name="Changes" comment="" />
+    <list default="true" id="a79f1b14-62ff-4d7d-a619-5a888b854271" name="Changes" comment="Add conversions stub methods">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SD2_LabTwo_3151565.iml" beforeDir="false" afterPath="$PROJECT_DIR$/SD2_LabTwo_3151565.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ConversionsTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ConversionsTest.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -20,21 +24,21 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
-  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
-  "lastFilter": {
-    "state": "OPEN",
-    "assignee": "H0lmy"
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;H0lmy&quot;
   }
-}]]></component>
-  <component name="GithubPullRequestsUISettings"><![CDATA[{
-  "selectedUrlAndAccountId": {
-    "url": "git@github.com:H0lmy/SD2_LAbTwo-3151565.git",
-    "accountId": "b3778a61-7f68-493a-b0bb-3e8c9eda1460"
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;git@github.com:H0lmy/SD2_LAbTwo-3151565.git&quot;,
+    &quot;accountId&quot;: &quot;b3778a61-7f68-493a-b0bb-3e8c9eda1460&quot;
   }
-}]]></component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 2
-}]]></component>
+}</component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 2
+}</component>
   <component name="ProjectId" id="3A4YsMyukAAqUF0JjRkwLDEsEp7" />
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="1" id="Add" />
@@ -45,7 +49,13 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Downloaded.Files.Path.Enabled": "false",
+    "JUnit.ConversionsTest.euroToDollarDefaultValue.executor": "Run",
+    "JUnit.ConversionsTest.executor": "Run",
     "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "Repository.Attach.Annotations": "false",
+    "Repository.Attach.JavaDocs": "false",
+    "Repository.Attach.Sources": "false",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
     "RunOnceActivity.git.unshallow": "true",
@@ -60,6 +70,23 @@
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
+  <component name="RunManager">
+    <configuration name="ConversionsTest.euroToDollarDefaultValue" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="SD2_LabTwo_3151565" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="ConversionsTest" />
+      <option name="METHOD_NAME" value="euroToDollarDefaultValue" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.ConversionsTest.euroToDollarDefaultValue" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
@@ -75,11 +102,35 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1771853515361</updated>
-      <workItem from="1771853516544" duration="335000" />
+      <workItem from="1771853516544" duration="813000" />
+      <workItem from="1771854339810" duration="609000" />
     </task>
+    <task id="LOCAL-00001" summary="Add conversions stub methods">
+      <option name="closed" value="true" />
+      <created>1771854211138</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1771854211138</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Add conversions stub methods" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add conversions stub methods" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <breakpoint enabled="true" type="java-exception">
+          <properties class="java.lang.AssertionError" package="java.lang" />
+          <option name="timeStamp" value="1" />
+        </breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
