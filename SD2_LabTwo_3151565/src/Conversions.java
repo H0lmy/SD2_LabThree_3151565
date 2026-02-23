@@ -9,7 +9,7 @@ public class Conversions {
     }
 
     public int stringToInteger(String val) {
-        return 0;
+        return val != null && !val.isEmpty() ? Integer.parseInt(val) : 0;
     }
 
     public String integerToString(int val) {
