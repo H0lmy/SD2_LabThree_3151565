@@ -29,7 +29,7 @@ public class Rhombus extends Shape {
     }
     @Override
     public double getPerimeter() {
-        return 0;
+        return getSide() > 0 ? 4 * side: 0;
     }
     @Override
     public String toString() {
