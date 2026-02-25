@@ -42,4 +42,10 @@ public class TestCircle {
         circle.setRadius(0);
         assertEquals(0, circle.getPerimeter());
     }
+
+    @Test
+    public void testToString() {
+        circle.setRadius(10);
+        assertEquals("Shape: Circle Radius: 10.0", circle.toString());
+    }
 }

@@ -61,4 +61,11 @@ public class TestRhombus {
         rhombus.setSide(0);
         assertEquals(0, rhombus.getPerimeter());
     }
+
+    @Test
+    public void testToString() {
+        rhombus.setSide(10);
+        rhombus.setHeight(5);
+        assertEquals("Shape: Rhombus Side: 10.0 Height: 5.0", rhombus.toString());
+    }
 }

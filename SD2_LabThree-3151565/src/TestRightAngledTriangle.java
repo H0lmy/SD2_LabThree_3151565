@@ -71,6 +71,14 @@ public class TestRightAngledTriangle {
         assertEquals(0, rightAngledTriangle.getPerimeter());
     }
 
+    @Test
+    public void testToString() {
+        rightAngledTriangle.setHypotenuse(5);
+        rightAngledTriangle.setOpposite(3);
+        rightAngledTriangle.setAdjacent(4);
+        assertEquals("Shape: RightAngledTriangle Hypotenuse: 5.0 Opposite: 3.0 Adjacent: 4.0", rightAngledTriangle.toString());
+    }
+
 
 
 
