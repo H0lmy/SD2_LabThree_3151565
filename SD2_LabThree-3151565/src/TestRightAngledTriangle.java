@@ -12,6 +12,7 @@ public class TestRightAngledTriangle {
     public void testAreaWithPositiveSides() {
         rightAngledTriangle.setOpposite(5);
         rightAngledTriangle.setAdjacent(3);
+        rightAngledTriangle.setHypotenuse(8);
         assertEquals(7.5, rightAngledTriangle.getArea());
     }
 
@@ -19,6 +20,7 @@ public class TestRightAngledTriangle {
     public void testAreaWithNegativeSide() {
         rightAngledTriangle.setOpposite(-5);
         rightAngledTriangle.setAdjacent(3);
+        rightAngledTriangle.setHypotenuse(8);
         assertEquals(0, rightAngledTriangle.getArea());
     }
 
@@ -26,6 +28,7 @@ public class TestRightAngledTriangle {
     public void testAreaWithZeroSide() {
         rightAngledTriangle.setOpposite(0);
         rightAngledTriangle.setAdjacent(3);
+        rightAngledTriangle.setHypotenuse(8);
         assertEquals(0, rightAngledTriangle.getArea());
     }
 
