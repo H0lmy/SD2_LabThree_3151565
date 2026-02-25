@@ -4,9 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a79f1b14-62ff-4d7d-a619-5a888b854271" name="Changes" comment="add comments and refactor code">
+    <list default="true" id="a79f1b14-62ff-4d7d-a619-5a888b854271" name="Changes" comment="add comments">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Conversions.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Conversions.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ConversionsTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ConversionsTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -46,30 +47,39 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Downloaded.Files.Path.Enabled&quot;: &quot;false&quot;,
-    &quot;JUnit.ConversionsTest.euroToDollarDefaultValue.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.ConversionsTest.executor&quot;: &quot;Run&quot;,
-    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
-    &quot;Repository.Attach.Annotations&quot;: &quot;false&quot;,
-    &quot;Repository.Attach.JavaDocs&quot;: &quot;false&quot;,
-    &quot;Repository.Attach.Sources&quot;: &quot;false&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
-    &quot;augment.onboarding.workspace.first.indexed./Users/maxshtymak/IdeaProjects/SD2_LabTwo_3151565&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.Main.executor": "Run",
+    "Downloaded.Files.Path.Enabled": "false",
+    "JUnit.ConversionsTest.euroToDollarDefaultValue.executor": "Run",
+    "JUnit.ConversionsTest.executor": "Run",
+    "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "Repository.Attach.Annotations": "false",
+    "Repository.Attach.JavaDocs": "false",
+    "Repository.Attach.Sources": "false",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "augment.onboarding.workspace.first.indexed./Users/maxshtymak/IdeaProjects/SD2_LabTwo_3151565": "true",
+    "git-widget-placeholder": "main",
+    "kotlin-language-version-configured": "true",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "preferences.pluginManager",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
-  <component name="RunManager" selected="JUnit.ConversionsTest">
+}]]></component>
+  <component name="RunManager" selected="Application.Main">
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Main" />
+      <module name="SD2_LabTwo_3151565" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="ConversionsTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="SD2_LabTwo_3151565" />
       <option name="PACKAGE_NAME" value="" />
@@ -91,6 +101,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Main" />
         <item itemvalue="JUnit.ConversionsTest" />
         <item itemvalue="JUnit.ConversionsTest.euroToDollarDefaultValue" />
       </list>
@@ -114,7 +125,10 @@
       <workItem from="1771853516544" duration="813000" />
       <workItem from="1771854339810" duration="1292000" />
       <workItem from="1771856429412" duration="3247000" />
-      <workItem from="1771868748498" duration="96000" />
+      <workItem from="1771868748498" duration="1979000" />
+      <workItem from="1771920301955" duration="90000" />
+      <workItem from="1771930380922" duration="951000" />
+      <workItem from="1771933664410" duration="2793000" />
     </task>
     <task id="LOCAL-00001" summary="Add conversions stub methods">
       <option name="closed" value="true" />
@@ -220,7 +234,15 @@
       <option name="project" value="LOCAL" />
       <updated>1771857446669</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="add comments">
+      <option name="closed" value="true" />
+      <created>1771868855835</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1771868855835</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -239,7 +261,8 @@
     <MESSAGE value="add switchCase test methods" />
     <MESSAGE value="add switchCase implementation and fix test bug" />
     <MESSAGE value="add comments and refactor code" />
-    <option name="LAST_COMMIT_MESSAGE" value="add comments and refactor code" />
+    <MESSAGE value="add comments" />
+    <option name="LAST_COMMIT_MESSAGE" value="add comments" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
