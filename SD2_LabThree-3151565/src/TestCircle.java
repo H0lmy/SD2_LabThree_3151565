@@ -26,16 +26,16 @@ public class TestCircle {
     }
     @Test
     public void testPerimeterWithPositiveRadius() {
-        assertEquals(62.8, circle.getArea());
+        assertEquals(62.8, circle.getPerimeter());
     }
 
     @Test
     public void testPerimeterWithNegativeRadius() {
-        assertEquals(0, circle.getArea());
+        assertEquals(0, circle.getPerimeter());
     }
 
     @Test
     public void testPerimeterWithZeroRadius() {
-        assertEquals(0, circle.getArea());
+        assertEquals(0, circle.getPerimeter());
     }
 }

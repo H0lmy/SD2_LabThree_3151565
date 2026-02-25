@@ -15,7 +15,7 @@ public class Circle extends Shape {
 
     @Override
     public double getArea() {
-       return 0;
+        return getRadius() > 0 ? Math.PI * radius * radius: 0;
     }
     @Override
     public double getPerimeter() {
