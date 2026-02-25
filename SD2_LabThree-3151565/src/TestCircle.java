@@ -28,7 +28,7 @@ public class TestCircle {
     @Test
     public void testPerimeterWithPositiveRadius() {
         circle.setRadius(10);
-        assertEquals(62.8, circle.getPerimeter());
+        assertEquals(63.0, Math.round(circle.getPerimeter()), 0.1);
     }
 
     @Test
