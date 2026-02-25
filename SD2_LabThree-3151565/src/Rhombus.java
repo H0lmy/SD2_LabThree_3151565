@@ -25,7 +25,7 @@ public class Rhombus extends Shape {
     }
     @Override
     public double getArea() {
-        return 0;
+        return getSide() > 0 && getHeight() > 0 ? side * height: 0;
     }
     @Override
     public double getPerimeter() {
