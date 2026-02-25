@@ -38,7 +38,11 @@ public class RightAngledTriangle extends Shape {
     }
     @Override
     public double getPerimeter() {
-        return 0;
+        if( getHypotenuse() > 0 && getOpposite() > 0 && getAdjacent() > 0 && getHypotenuse() > getOpposite() && getHypotenuse() > getAdjacent()) {
+            return getHypotenuse() + getOpposite() + getAdjacent();
+        }else {
+            return 0;
+        }
     }
     @Override
     public String toString() {
