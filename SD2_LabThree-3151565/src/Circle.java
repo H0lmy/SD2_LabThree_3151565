@@ -19,7 +19,7 @@ public class Circle extends Shape {
     }
     @Override
     public double getPerimeter() {
-        return 0;
+        return getRadius() > 0 ? 2 * Math.PI * radius: 0;
     }
 
     @Override

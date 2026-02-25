@@ -10,6 +10,7 @@ public class TestCircle {
 
     @Test
     public void testAreaWithPositiveRadius() {
+        circle.setRadius(10);
        assertEquals(314, Math.round(circle.getArea()));
     }
 
@@ -26,16 +27,19 @@ public class TestCircle {
     }
     @Test
     public void testPerimeterWithPositiveRadius() {
+        circle.setRadius(10);
         assertEquals(62.8, circle.getPerimeter());
     }
 
     @Test
     public void testPerimeterWithNegativeRadius() {
+        circle.setRadius(-10);
         assertEquals(0, circle.getPerimeter());
     }
 
     @Test
     public void testPerimeterWithZeroRadius() {
+        circle.setRadius(0);
         assertEquals(0, circle.getPerimeter());
     }
 }
