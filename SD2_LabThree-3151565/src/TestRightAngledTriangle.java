@@ -1,8 +1,13 @@
+// Maksym Shtymak 3151565
+
 import org.junit.jupiter.api.*;
+
 import static org.junit.jupiter.api.Assertions.*;
 
 public class TestRightAngledTriangle {
+    // initialize the right angled triangle before  testing
     private static RightAngledTriangle rightAngledTriangle;
+
     @BeforeAll
     static void setup() {
         rightAngledTriangle = new RightAngledTriangle(5, 3, 4);
@@ -63,6 +68,7 @@ public class TestRightAngledTriangle {
         rightAngledTriangle.setAdjacent(4);
         assertEquals(0, rightAngledTriangle.getPerimeter());
     }
+
     @Test
     public void testPerimeterWithSideGreaterThanHypotenuse() {
         rightAngledTriangle.setHypotenuse(5);
@@ -78,8 +84,6 @@ public class TestRightAngledTriangle {
         rightAngledTriangle.setAdjacent(4);
         assertEquals("Shape: RightAngledTriangle Hypotenuse: 5.0 Opposite: 3.0 Adjacent: 4.0", rightAngledTriangle.toString());
     }
-
-
 
 
 }

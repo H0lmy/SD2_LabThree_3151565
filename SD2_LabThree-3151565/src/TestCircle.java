@@ -1,17 +1,22 @@
+// Maksym Shtymak 3151565
+
 import org.junit.jupiter.api.*;
+
 import static org.junit.jupiter.api.Assertions.*;
 
 public class TestCircle {
+    // initialise circle before testing
     private static Circle circle;
+
     @BeforeAll
     static void setup() {
-        circle = new Circle( 10);
+        circle = new Circle(10);
     }
 
     @Test
     public void testAreaWithPositiveRadius() {
         circle.setRadius(10);
-       assertEquals(314, Math.round(circle.getArea()));
+        assertEquals(314, Math.round(circle.getArea()));
     }
 
     @Test
@@ -25,6 +30,7 @@ public class TestCircle {
         circle.setRadius(0);
         assertEquals(0, circle.getArea());
     }
+
     @Test
     public void testPerimeterWithPositiveRadius() {
         circle.setRadius(10);

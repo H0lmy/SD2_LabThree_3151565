@@ -1,8 +1,13 @@
+// Maksym Shtymak 3151565
+
 import org.junit.jupiter.api.*;
+
 import static org.junit.jupiter.api.Assertions.*;
 
 public class TestRhombus {
+    // initialize rhombus before testing
     private static Rhombus rhombus;
+
     @BeforeAll
     static void setup() {
         rhombus = new Rhombus(10, 5);
